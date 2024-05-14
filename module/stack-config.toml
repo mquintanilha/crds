@@ -1,0 +1,6 @@
+[provider]
+source = "hashicorp/helm"
+version = "2.12.1"
+kubernetes {
+    config_path = "~/.kube/config"
+}
